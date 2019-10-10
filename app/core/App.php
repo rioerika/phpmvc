@@ -7,7 +7,10 @@ class App{
 	}
 
 	public function parseURL(){
-		if(isset($_GET['url']));
-		return $url;
+		if(isset($_GET['url'])){
+			$url = $_GET['url'];
+			return $url;	
+		}
+		
 	}
 }
